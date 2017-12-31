@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">.
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Ask Me Finance</h1>
+  <p>Your one stop for clearing your confusions about finance</p> 
+   <input type="image" src="plus.png" class="add-finance-post-button" data-target="#myModal" data-toggle="modal"/> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-xs-1"></div>
+    <div class="col-md-8 post-area col-xs-10">
+      <div class="row finance-post">
+
+      </div>
+    </div>
+    <div class="col-md-2 col-xs-1"></div>
+  </div>
+  <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">What would you like to know?</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+         <input type="text" placeholder="Title" class="form-control finance-question-title" id="title" maxlength="150">
+       </div>
+       <div class="form-group">
+        <textarea class="form-control" rows="5" id="description" placeholder="Description"></textarea>
+      </div>
+      <div class="form-group ">
+       <label class="control-label">Add a bounty to incentivize responses: </label><br>
+         <select class="selectpicker">
+            <option>1 Day</option>
+            <option>2 Days</option>
+            <option>3 Days</option>
+            <option>4 Days</option>
+            <option>5 Days</option>
+            <option>6 Days</option>
+            <option>7 Days</option>
+         </select><br><br>
+<div class="input-group">
+  <span class="input-group-addon">ETH</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+</div>
+
+
+
+
+
+     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+</body>
+</html>
