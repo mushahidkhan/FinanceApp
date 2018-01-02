@@ -1,0 +1,69 @@
+{
+  "contractName": "AskAQuestion",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a723058200428f9c2bdc1296e8c80b2342859b45236031951ef64307917b6c0c7d37d40340029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058200428f9c2bdc1296e8c80b2342859b45236031951ef64307917b6c0c7d37d40340029",
+  "sourceMap": "26:31:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:31:0:-;;;;;",
+  "source": "pragma solidity ^0.4.16;\n\ncontract AskAQuestion {\n\n \n\n \n}",
+  "sourcePath": "/Users/mushahid/Desktop/financeApp/contracts/AskAQuestion.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/mushahid/Desktop/financeApp/contracts/AskAQuestion.sol",
+      "exportedSymbols": {
+        "AskAQuestion": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".16"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "AskAQuestion",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "26:31:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "0:57:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-01-01T21:04:06.871Z"
+}
